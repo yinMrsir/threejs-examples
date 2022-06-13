@@ -43,9 +43,9 @@ function App() {
     ]
 
     const geometry = new THREE.BoxGeometry(4, 4, 4);
-    const material = new THREE.MultiMaterial(arr);
+    // const material = new THREE.MultiMaterial(arr);   0.141.0 版本不需要
 
-    const mesh = new THREE.Mesh(geometry, material);
+    const mesh = new THREE.Mesh(geometry, arr);
     scene.add(mesh);
 
     // const ax = new THREE.AxesHelper();

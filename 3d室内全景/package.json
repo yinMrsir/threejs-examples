@@ -10,7 +10,7 @@
   "dependencies": {
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "three": "^0.139.2"
+    "three": "^0.141.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.0",
