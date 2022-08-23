@@ -32,7 +32,6 @@ function App() {
     camera.position.z = 1;
 
     const scene = new THREE.Scene();
-
     const arr = [
       loadTextrue(back),
       loadTextrue(front),
