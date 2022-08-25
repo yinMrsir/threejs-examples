@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@three-ts/orbit-controls": "^1.4.7",
     "@types/dat.gui": "^0.7.7",
     "@types/three": "^0.141.0",
     "dat.gui": "^0.7.9",

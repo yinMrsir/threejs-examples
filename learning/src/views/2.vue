@@ -7,7 +7,7 @@ import { ref, onMounted } from "vue";
 import * as THREE from "three";
 import * as dat from 'dat.gui';
 
-const canvasRef = ref(null);
+const canvasRef = ref<HTMLDivElement | null>(null);
 const defaultConfig = {
   width: window.innerWidth,
   height: window.innerHeight,
@@ -81,7 +81,6 @@ onMounted(() => {
 function renderScene() {
   scene.traverse(function (e) {
       if (e instanceof THREE.Mesh && e != plane) {
-
           e.rotation.x += controls.rotationSpeed;
           e.rotation.y += controls.rotationSpeed;
           e.rotation.z += controls.rotationSpeed;
